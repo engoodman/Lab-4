@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="749.0">
+         <children>
+            <BorderPane prefHeight="513.0" prefWidth="749.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <SplitPane dividerPositions="0.3888888888888889" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label layoutX="306.0" layoutY="14.0" text="Player 3" />
+                              <ButtonBar layoutX="220.0" layoutY="31.0" prefHeight="36.0" prefWidth="200.0">
+                                 <buttons>
+                                    <Button mnemonicParsing="false" text="Sit" />
+                                  <Button mnemonicParsing="false" text="Leave" />
+                                 </buttons>
+                              </ButtonBar>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <GridPane gridLinesVisible="true" layoutX="4.0" layoutY="10.0" prefHeight="96.0" prefWidth="747.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <ImageView fitHeight="117.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="119.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                                    <ImageView fitHeight="118.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                                    <ImageView fitHeight="118.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                                    <ImageView fitHeight="120.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                                    <ImageView fitHeight="119.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+                                    <ImageView fitHeight="117.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </top>
+               <left>
+                  <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="113.0" prefWidth="216.0" BorderPane.alignment="CENTER">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="125.0" prefWidth="252.0">
+                           <children>
+                              <Label layoutX="112.0" layoutY="6.0" text="Player 1" />
+                              <ButtonBar layoutX="26.0" layoutY="19.0" prefHeight="40.0" prefWidth="200.0">
+                                <buttons>
+                                  <Button mnemonicParsing="false" text="Sit" />
+                                    <Button mnemonicParsing="false" text="Leave" />
+                                </buttons>
+                              </ButtonBar>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <GridPane gridLinesVisible="true" layoutX="26.0" layoutY="8.0" prefHeight="152.0" prefWidth="252.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <ImageView fitHeight="51.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="51.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                                    <ImageView fitHeight="51.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                                    <ImageView fitHeight="54.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                                    <ImageView fitHeight="51.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                                    <ImageView fitHeight="52.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+                                    <ImageView fitHeight="52.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </left>
+               <bottom>
+                  <SplitPane dividerPositions="0.36363636363636365" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="78.0" prefWidth="747.0">
+                           <children>
+                              <Label layoutX="363.0" layoutY="6.0" text="Player 4" />
+                              <ButtonBar layoutX="263.0" layoutY="32.0" prefHeight="40.0" prefWidth="200.0">
+                                <buttons>
+                                  <Button mnemonicParsing="false" text="Sit" />
+                                    <Button mnemonicParsing="false" text="Leave" />
+                                </buttons>
+                              </ButtonBar>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <GridPane gridLinesVisible="true" layoutX="48.0" prefHeight="96.0" prefWidth="747.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <ImageView fitHeight="122.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="121.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                                    <ImageView fitHeight="122.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                                    <ImageView fitHeight="126.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                                    <ImageView fitHeight="125.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                                    <ImageView fitHeight="128.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+                                    <ImageView fitHeight="121.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </bottom>
+               <right>
+                  <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="113.0" prefWidth="213.0" BorderPane.alignment="CENTER">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label layoutX="83.0" layoutY="6.0" text="Player 2" />
+                              <ButtonBar layoutX="-49.0" layoutY="14.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                                      <buttons>
+                                        <Button mnemonicParsing="false" text="Sit" />
+                                          <Button mnemonicParsing="false" text="Leave" />
+                                      </buttons>
+                                    </ButtonBar>
+                                 </buttons>
+                              </ButtonBar>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0">
+                           <children>
+                              <GridPane gridLinesVisible="true" layoutX="-20.0" layoutY="-31.0" prefHeight="52.0" prefWidth="239.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <ImageView fitHeight="50.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="50.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                                    <ImageView fitHeight="53.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                                    <ImageView fitHeight="53.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                                    <ImageView fitHeight="51.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                                    <ImageView fitHeight="52.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+                                    <ImageView fitHeight="54.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </right>
+               <center>
+                  <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="113.0" prefWidth="266.0" BorderPane.alignment="CENTER">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label layoutX="112.0" layoutY="6.0" text="Community Cards" />
+                              <ButtonBar layoutX="26.0" layoutY="19.0" prefHeight="40.0" prefWidth="200.0">
+                                <buttons>
+                                  <Button mnemonicParsing="false" text="Game" />
+                                    <Button mnemonicParsing="false" text="Deal" />
+                                    <Button mnemonicParsing="false" text="Score" />
+                                </buttons>
+                              </ButtonBar>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <GridPane gridLinesVisible="true" layoutX="43.0" layoutY="-19.0" prefHeight="52.0" prefWidth="318.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <ImageView fitHeight="54.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="54.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+                                    <ImageView fitHeight="53.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+                                    <ImageView fitHeight="58.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+                                    <ImageView fitHeight="54.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Games">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="Omaha" />
+                  <MenuItem mnemonicParsing="false" text="Texas Hold'Em" />
+                  <MenuItem mnemonicParsing="false" text="7 Card Draw" />
+                  <MenuItem mnemonicParsing="false" text="5 Card Draw" />
+                  <MenuItem mnemonicParsing="false" text="5 Card Wild Poker" />
+                  <MenuItem mnemonicParsing="false" text="5 Card Joker Poker" />
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
